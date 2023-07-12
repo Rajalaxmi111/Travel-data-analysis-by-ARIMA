@@ -1,1 +1,2 @@
-# Travel-data-analysis-by-ARIMA
+Travel data analysis by ARIMA
+ARIMA(Auto Regressive Integrated Moving Average) is a combination of 2 models AR(Auto Regressive) & MA(Moving Average). It has 3 hyperparameters - P(auto regressive lags), d(order of differentiation) and Q(moving avg.) which respectively comes from the AR, I & MA components. The AR part is correlation between prev & current time periods. To smooth out the noise, the MA part is used. The I part binds together the AR & MA parts.el-data-analysis-by-ARIMA
